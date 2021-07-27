@@ -82,6 +82,7 @@
 
 .orcamento h2 {
 	color: #fec63e;
+	margin-bottom: 40px;
 }
 
 .orcamento h2::after {
@@ -122,4 +123,44 @@
 .form .btn-produtos {
 	background: none;
 	padding: 7px 40px;
+}
+
+.orcamento-dados {
+	color: #fff;
+}
+
+.orcamento-dados h3 {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #fec63e;
+	line-height: 25px;
+	font-weight: bold;
+}
+
+.orcamento-dados span {
+	line-height: 30px;
+	display: block;
+	font-size: 18px;
+	font-family: Georgia, 'Times New Roman', serif;
+}
+.orcamento-dados .dados-email {
+	margin-bottom: 40px;
+}
+
+.orcamento-dados ul {
+	padding-right: 58px;
+}
+
+.orcamento-dados ul li {
+	font-family: Georgia, 'Times New Roman', serif;
+	font-size: 14px;
+	padding: 10px 15px;
+}
+
+.orcamento-dados ul li:nth-child(odd){
+	background: #1d1d1d;
+}
+
+.orcamento-dados p {
+	margin: 7px 0;
 }
